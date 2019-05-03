@@ -1,0 +1,7 @@
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\bin\Debug\YukleniciOtomasyon.Entities.dll.config
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\bin\Debug\YukleniciOtomasyon.Entities.dll
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\bin\Debug\YukleniciOtomasyon.Entities.pdb
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\obj\Debug\YukleniciOtomasyon.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\obj\Debug\YukleniciOtomasyon.Entities.csproj.CopyComplete
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\obj\Debug\YukleniciOtomasyon.Entities.dll
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.Entities\obj\Debug\YukleniciOtomasyon.Entities.pdb

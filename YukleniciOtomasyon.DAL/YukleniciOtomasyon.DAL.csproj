@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D596393D-2D27-4ADA-ACAD-5639D88E1DFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YukleniciOtomasyon.DAL</RootNamespace>
+    <AssemblyName>YukleniciOtomasyon.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryAbstract\IBaseRepository.cs" />
+    <Compile Include="RepositoryAbstract\Depo\IDepoBirimiRepository.cs" />
+    <Compile Include="RepositoryAbstract\Depo\IDepolarRepository.cs" />
+    <Compile Include="RepositoryAbstract\Lojistik\ILojistikBirimiRepository.cs" />
+    <Compile Include="RepositoryAbstract\Lojistik\INakliyeIrsaliyeRepository.cs" />
+    <Compile Include="RepositoryAbstract\Lojistik\INakliyeIslemiRepository.cs" />
+    <Compile Include="RepositoryAbstract\IK\IPersonelIletisimRepository.cs" />
+    <Compile Include="RepositoryAbstract\IK\IPersonelMuhasebeRepository.cs" />
+    <Compile Include="RepositoryAbstract\IK\IPersonelRepository.cs" />
+    <Compile Include="RepositoryAbstract\Santiye\ISantiyeBirimiRepository.cs" />
+    <Compile Include="RepositoryAbstract\Santiye\ISantiyeIsTakibiRepository.cs" />
+    <Compile Include="RepositoryAbstract\Santiye\ISantiyelerRepository.cs" />
+    <Compile Include="RepositoryAbstract\SatinAlma\ISatinAlmaBirimiRepository.cs" />
+    <Compile Include="RepositoryAbstract\SatinAlma\ISatinAlmalarRepository.cs" />
+    <Compile Include="RepositoryAbstract\IT_DepartmanRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_DepoOzellikleriRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_IhaleEvraklariRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_MalzemeFiyatRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_MalzemeRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_NakliyeAraclariRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_NakliyeRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_PersonelUnvanRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_SantiyeOzellikleriRepository.cs" />
+    <Compile Include="RepositoryAbstract\TanimTablolari\IT_TedarikciFirmaRepository.cs" />
+    <Compile Include="RepositoryAbstract\Teklif\IAcilanIhalelerRepository.cs" />
+    <Compile Include="RepositoryAbstract\Teklif\ITeklifBirimiRepository.cs" />
+    <Compile Include="RepositoryConcrete\Depo\DepoBirimiRepository.cs" />
+    <Compile Include="RepositoryConcrete\Depo\DepolarRepository.cs" />
+    <Compile Include="RepositoryConcrete\IK\PersonelIletisimRepository.cs" />
+    <Compile Include="RepositoryConcrete\IK\PersonelMuhasebeRepository.cs" />
+    <Compile Include="RepositoryConcrete\IK\PersonelRepository.cs" />
+    <Compile Include="RepositoryConcrete\Lojistik\LojistikBirimiRepository.cs" />
+    <Compile Include="RepositoryConcrete\Lojistik\NakliyeIrsaliyeRepository.cs" />
+    <Compile Include="RepositoryConcrete\Lojistik\NakliyeIslemiRepository.cs" />
+    <Compile Include="RepositoryConcrete\Santiye\SantiyeBirimiRepository.cs" />
+    <Compile Include="RepositoryConcrete\Santiye\SantiyeIsTakibiRepository.cs" />
+    <Compile Include="RepositoryConcrete\Santiye\SantiyelerRepository.cs" />
+    <Compile Include="RepositoryConcrete\SatinAlma\SatinAlmaBirimiRepository.cs" />
+    <Compile Include="RepositoryConcrete\SatinAlma\SatinAlmalarRepository.cs" />
+    <Compile Include="RepositoryConcrete\DepartmanRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_DepoOzellikleriRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_IhaleEvraklariRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_MalzemeFiyatRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_MalzemeRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_NakliyeAraclariRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_NakliyeRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_PersonelUnvanRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_SantiyeOzellikleriRepository.cs" />
+    <Compile Include="RepositoryConcrete\TanimTablolari\T_TedarikciFirmaRepository.cs" />
+    <Compile Include="RepositoryConcrete\Teklif\AcilanIhalelerRepository.cs" />
+    <Compile Include="RepositoryConcrete\Teklif\TeklifBirimiRepository.cs" />
+    <Compile Include="YukleniciOtomasyonContext\YukleniciOtomasyonDbContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bin\Debug\YukleniciOtomasyon.DAL.dll.config" />
+    <None Include="bin\Debug\YukleniciOtomasyon.Entities.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\YukleniciOtomasyon.DAL.csproj.CopyComplete" />
+    <None Include="obj\Debug\YukleniciOtomasyon.DAL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\YukleniciOtomasyon.DAL.csprojAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\YukleniciOtomasyon.DAL.dll" />
+    <Content Include="bin\Debug\YukleniciOtomasyon.DAL.pdb" />
+    <Content Include="bin\Debug\YukleniciOtomasyon.Entities.dll" />
+    <Content Include="bin\Debug\YukleniciOtomasyon.Entities.pdb" />
+    <Content Include="obj\Debug\YukleniciOtomasyon.DAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\YukleniciOtomasyon.DAL.dll" />
+    <Content Include="obj\Debug\YukleniciOtomasyon.DAL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YukleniciOtomasyon.Entities\YukleniciOtomasyon.Entities.csproj">
+      <Project>{851c906f-175d-4f31-ba3b-5ec7ec092890}</Project>
+      <Name>YukleniciOtomasyon.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

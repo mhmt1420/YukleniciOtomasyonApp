@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A616198D-099D-43A4-9CA5-D1F1CBD8BA18}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>YukleniciOtomasyon.WinUI</RootNamespace>
+    <AssemblyName>YukleniciOtomasyon.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Depo\frmDepoBirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo\frmDepoBirimi.Designer.cs">
+      <DependentUpon>frmDepoBirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depo\frmyanDepo_GuncelleEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo\frmyanDepo_GuncelleEkle.Designer.cs">
+      <DependentUpon>frmyanDepo_GuncelleEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DGVSoter.cs" />
+    <Compile Include="DosyaAcici.cs" />
+    <Compile Include="FakeDataDoldur.cs" />
+    <Compile Include="frmyanMalzemeBilgisi_Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmyanMalzemeBilgisi_Listele.Designer.cs">
+      <DependentUpon>frmyanMalzemeBilgisi_Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaForm.Designer.cs">
+      <DependentUpon>frmAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGirisForm.Designer.cs">
+      <DependentUpon>frmGirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HataMesajiVerme.cs" />
+    <Compile Include="IK\frmIKBirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IK\frmIKBirimi.Designer.cs">
+      <DependentUpon>frmIKBirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IK\frmyanPersonelBilgileriGuncelle_Kaydet .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IK\frmyanPersonelBilgileriGuncelle_Kaydet .Designer.cs">
+      <DependentUpon>frmyanPersonelBilgileriGuncelle_Kaydet .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lojistik\frmLojistikBirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lojistik\frmLojistikBirimi.designer.cs">
+      <DependentUpon>frmLojistikBirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lojistik\frmyanNakliyeIrsaliye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lojistik\frmyanNakliyeIrsaliye.Designer.cs">
+      <DependentUpon>frmyanNakliyeIrsaliye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Santiye\frmSantiyeBirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Santiye\frmSantiyeBirimi.Designer.cs">
+      <DependentUpon>frmSantiyeBirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Santiye\frmyanSantiye_GuncelleEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Santiye\frmyanSantiye_GuncelleEkle.Designer.cs">
+      <DependentUpon>frmyanSantiye_GuncelleEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatinAlma\frmSatinAlmaBirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatinAlma\frmSatinAlmaBirimi.Designer.cs">
+      <DependentUpon>frmSatinAlmaBirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatinAlma\frmyanSatinAlmaListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatinAlma\frmyanSatinAlmaListele.Designer.cs">
+      <DependentUpon>frmyanSatinAlmaListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatinAlma\frmyanTedarikciFirma_Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatinAlma\frmyanTedarikciFirma_Listele.Designer.cs">
+      <DependentUpon>frmyanTedarikciFirma_Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teklif\frmTeklifBirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teklif\frmTeklifBirimi.Designer.cs">
+      <DependentUpon>frmTeklifBirimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teklif\frmyanIhaleKaydet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teklif\frmyanIhaleKaydet.Designer.cs">
+      <DependentUpon>frmyanIhaleKaydet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teklif\frmyanİhaleEvrakları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teklif\frmyanİhaleEvrakları.Designer.cs">
+      <DependentUpon>frmyanİhaleEvrakları.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Depo\frmDepoBirimi.resx">
+      <DependentUpon>frmDepoBirimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depo\frmyanDepo_GuncelleEkle.resx">
+      <DependentUpon>frmyanDepo_GuncelleEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmyanMalzemeBilgisi_Listele.resx">
+      <DependentUpon>frmyanMalzemeBilgisi_Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnaForm.resx">
+      <DependentUpon>frmAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGirisForm.resx">
+      <DependentUpon>frmGirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IK\frmyanPersonelBilgileriGuncelle_Kaydet .resx">
+      <DependentUpon>frmyanPersonelBilgileriGuncelle_Kaydet .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Santiye\frmSantiyeBirimi.resx">
+      <DependentUpon>frmSantiyeBirimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Santiye\frmyanSantiye_GuncelleEkle.resx">
+      <DependentUpon>frmyanSantiye_GuncelleEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatinAlma\frmSatinAlmaBirimi.resx">
+      <DependentUpon>frmSatinAlmaBirimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatinAlma\frmyanSatinAlmaListele.resx">
+      <DependentUpon>frmyanSatinAlmaListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatinAlma\frmyanTedarikciFirma_Listele.resx">
+      <DependentUpon>frmyanTedarikciFirma_Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teklif\frmyanİhaleEvrakları.resx">
+      <DependentUpon>frmyanİhaleEvrakları.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YukleniciOtomasyon.BLL\YukleniciOtomasyon.BLL.csproj">
+      <Project>{6E5D74D7-AD7A-43E6-83FF-85EC842689CE}</Project>
+      <Name>YukleniciOtomasyon.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YukleniciOtomasyon.Entities\YukleniciOtomasyon.Entities.csproj">
+      <Project>{851C906F-175D-4F31-BA3B-5EC7EC092890}</Project>
+      <Name>YukleniciOtomasyon.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4105954-print-printer_113928.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564399-close_81512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaydet-icon-png-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logistics-icon-png-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-2_91000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564398-menu2_81519.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564399-close_815121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address-book_icon-icons.com_71262.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\architect-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-button_icon-icons.com_70269.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compare-grey-300x300-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crane_96947.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\efficiency4x_86991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-symbol-1_icon-icons.com_70162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filledbox__4572.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-truck-icons-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fri-frakt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house_icon-icons.com_70104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HR-28-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_delete_128_28267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_hr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_476656.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information_icon-icons.com_70098.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaydet-icon-png-51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_theapplication_3002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-silhouette-security-tool-interface-symbol-of-password_icon-icons.com_54503.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-local-post-offe_90753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logistics-icon-png-201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail-black-envelope-symbol_icon-icons.com_56519.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\old-cellphone_icon-icons.com_68172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-call-auricular-symbol-in-black_icon-icons.com_56483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1469389335181-2198b4caa734.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture-on-frame_icon-icons.com_68155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview_search_find_locate_1551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-2_910001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone-on-base_icon-icons.com_56461.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow-5_icon-icons.com_69823.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-1275780_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\work-tools-crossed_icon-icons.com_68107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4105938-account-card-id-identification-identity-card-profile-user-profile_113929.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4674f46e4cd5c03f14410fe259b5e5f-industrial-crane-side-icon-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

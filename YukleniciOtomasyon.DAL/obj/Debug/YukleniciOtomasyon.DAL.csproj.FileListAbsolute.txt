@@ -1,0 +1,11 @@
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\bin\Debug\YukleniciOtomasyon.DAL.dll.config
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\bin\Debug\YukleniciOtomasyon.DAL.dll
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\bin\Debug\YukleniciOtomasyon.DAL.pdb
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\bin\Debug\YukleniciOtomasyon.Entities.dll
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\bin\Debug\YukleniciOtomasyon.Entities.pdb
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\bin\Debug\YukleniciOtomasyon.Entities.dll.config
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\obj\Debug\YukleniciOtomasyon.DAL.csprojAssemblyReference.cache
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\obj\Debug\YukleniciOtomasyon.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\obj\Debug\YukleniciOtomasyon.DAL.csproj.CopyComplete
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\obj\Debug\YukleniciOtomasyon.DAL.dll
+C:\Users\Mahmut Çağlayan\Source\Workspaces\SubcontractorAutomation\YukleniciOtomasyonApp\YukleniciOtomasyon.DAL\obj\Debug\YukleniciOtomasyon.DAL.pdb

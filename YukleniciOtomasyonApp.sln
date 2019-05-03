@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YukleniciOtomasyon.WinUI", "YukleniciOtomasyon.WinUI\YukleniciOtomasyon.WinUI.csproj", "{A616198D-099D-43A4-9CA5-D1F1CBD8BA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YukleniciOtomasyon.BLL", "YukleniciOtomasyon.BLL\YukleniciOtomasyon.BLL.csproj", "{6E5D74D7-AD7A-43E6-83FF-85EC842689CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YukleniciOtomasyon.DAL", "YukleniciOtomasyon.DAL\YukleniciOtomasyon.DAL.csproj", "{D596393D-2D27-4ADA-ACAD-5639D88E1DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YukleniciOtomasyon.Entities", "YukleniciOtomasyon.Entities\YukleniciOtomasyon.Entities.csproj", "{851C906F-175D-4F31-BA3B-5EC7EC092890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A616198D-099D-43A4-9CA5-D1F1CBD8BA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A616198D-099D-43A4-9CA5-D1F1CBD8BA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A616198D-099D-43A4-9CA5-D1F1CBD8BA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A616198D-099D-43A4-9CA5-D1F1CBD8BA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5D74D7-AD7A-43E6-83FF-85EC842689CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5D74D7-AD7A-43E6-83FF-85EC842689CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5D74D7-AD7A-43E6-83FF-85EC842689CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5D74D7-AD7A-43E6-83FF-85EC842689CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D596393D-2D27-4ADA-ACAD-5639D88E1DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D596393D-2D27-4ADA-ACAD-5639D88E1DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D596393D-2D27-4ADA-ACAD-5639D88E1DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D596393D-2D27-4ADA-ACAD-5639D88E1DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851C906F-175D-4F31-BA3B-5EC7EC092890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851C906F-175D-4F31-BA3B-5EC7EC092890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851C906F-175D-4F31-BA3B-5EC7EC092890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851C906F-175D-4F31-BA3B-5EC7EC092890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB21A6D3-AA75-4805-BD6F-301B8396E421}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/kutaycan01
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = YukleniciOtomasyon.BLL\\YukleniciOtomasyon.BLL.csproj
+		SccProjectName1 = YukleniciOtomasyon.BLL
+		SccLocalPath1 = YukleniciOtomasyon.BLL
+		SccProjectUniqueName2 = YukleniciOtomasyon.DAL\\YukleniciOtomasyon.DAL.csproj
+		SccProjectName2 = YukleniciOtomasyon.DAL
+		SccLocalPath2 = YukleniciOtomasyon.DAL
+		SccProjectUniqueName3 = YukleniciOtomasyon.Entities\\YukleniciOtomasyon.Entities.csproj
+		SccProjectName3 = YukleniciOtomasyon.Entities
+		SccLocalPath3 = YukleniciOtomasyon.Entities
+		SccProjectUniqueName4 = YukleniciOtomasyon.WinUI\\YukleniciOtomasyon.WinUI.csproj
+		SccProjectName4 = YukleniciOtomasyon.WinUI
+		SccLocalPath4 = YukleniciOtomasyon.WinUI
+	EndGlobalSection
+EndGlobal
